@@ -13,8 +13,8 @@ import (
 	"github.com/kubernetes-sigs/kubebuilder/pkg/signals"
 	extensionsv1beta1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"
 
-	"github.com/kragniz/tor-controller/pkg/inject"
-	"github.com/kragniz/tor-controller/pkg/inject/args"
+	"github.com/cmars/tor-controller/pkg/inject"
+	"github.com/cmars/tor-controller/pkg/inject/args"
 )
 
 var installCRDs = flag.Bool("install-crds", true, "install the CRDs used by the controller as part of startup")

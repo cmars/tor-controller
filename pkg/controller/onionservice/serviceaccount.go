@@ -9,7 +9,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/runtime"
 
-	torv1alpha1 "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
+	torv1alpha1 "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
 )
 
 func (bc *OnionServiceController) reconcileServiceAccount(onionService *torv1alpha1.OnionService) error {

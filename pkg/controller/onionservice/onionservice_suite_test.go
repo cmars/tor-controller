@@ -3,9 +3,9 @@ package onionservice_test
 import (
 	"testing"
 
-	"github.com/kragniz/tor-controller/pkg/client/clientset/versioned"
-	"github.com/kragniz/tor-controller/pkg/inject"
-	"github.com/kragniz/tor-controller/pkg/inject/args"
+	"github.com/cmars/tor-controller/pkg/client/clientset/versioned"
+	"github.com/cmars/tor-controller/pkg/inject"
+	"github.com/cmars/tor-controller/pkg/inject/args"
 	"github.com/kubernetes-sigs/kubebuilder/pkg/controller"
 	"github.com/kubernetes-sigs/kubebuilder/pkg/inject/run"
 	"github.com/kubernetes-sigs/kubebuilder/pkg/test"

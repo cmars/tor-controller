@@ -3,7 +3,7 @@
 package scheme
 
 import (
-	torv1alpha1 "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
+	torv1alpha1 "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

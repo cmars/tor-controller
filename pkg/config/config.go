@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"text/template"
 
-	torv1alpha1 "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
+	torv1alpha1 "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
 )
 
 const configFormat = `

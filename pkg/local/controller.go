@@ -12,8 +12,8 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
-	"github.com/kragniz/tor-controller/pkg/config"
+	"github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
+	"github.com/cmars/tor-controller/pkg/config"
 )
 
 type Controller struct {

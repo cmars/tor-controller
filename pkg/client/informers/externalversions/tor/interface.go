@@ -3,8 +3,8 @@
 package tor
 
 import (
-	internalinterfaces "github.com/kragniz/tor-controller/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/kragniz/tor-controller/pkg/client/informers/externalversions/tor/v1alpha1"
+	internalinterfaces "github.com/cmars/tor-controller/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/cmars/tor-controller/pkg/client/informers/externalversions/tor/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

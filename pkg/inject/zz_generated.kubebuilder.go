@@ -1,10 +1,10 @@
 package inject
 
 import (
-	torv1alpha1 "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
-	rscheme "github.com/kragniz/tor-controller/pkg/client/clientset/versioned/scheme"
-	"github.com/kragniz/tor-controller/pkg/controller/onionservice"
-	"github.com/kragniz/tor-controller/pkg/inject/args"
+	torv1alpha1 "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
+	rscheme "github.com/cmars/tor-controller/pkg/client/clientset/versioned/scheme"
+	"github.com/cmars/tor-controller/pkg/controller/onionservice"
+	"github.com/cmars/tor-controller/pkg/inject/args"
 	"github.com/kubernetes-sigs/kubebuilder/pkg/inject/run"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

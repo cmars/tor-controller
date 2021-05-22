@@ -7,9 +7,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/kragniz/tor-controller/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/kragniz/tor-controller/pkg/client/informers/externalversions/internalinterfaces"
-	tor "github.com/kragniz/tor-controller/pkg/client/informers/externalversions/tor"
+	versioned "github.com/cmars/tor-controller/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/cmars/tor-controller/pkg/client/informers/externalversions/internalinterfaces"
+	tor "github.com/cmars/tor-controller/pkg/client/informers/externalversions/tor"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

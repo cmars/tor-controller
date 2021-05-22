@@ -6,7 +6,7 @@ import (
 	injectargs "github.com/kubernetes-sigs/kubebuilder/pkg/inject/args"
 	"github.com/kubernetes-sigs/kubebuilder/pkg/inject/run"
 
-	"github.com/kragniz/tor-controller/pkg/inject/args"
+	"github.com/cmars/tor-controller/pkg/inject/args"
 )
 
 var (

@@ -4,7 +4,7 @@
 
 // +k8s:openapi-gen=true
 // +k8s:deepcopy-gen=package,register
-// +k8s:conversion-gen=github.com/kragniz/tor-controller/pkg/apis/tor
+// +k8s:conversion-gen=github.com/cmars/tor-controller/pkg/apis/tor
 // +k8s:defaulter-gen=TypeMeta
 // +groupName=tor.k8s.io
-package v1alpha1 // import "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
+package v1alpha1 // import "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"

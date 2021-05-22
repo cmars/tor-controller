@@ -10,7 +10,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/runtime"
 
-	torv1alpha1 "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
+	torv1alpha1 "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
 )
 
 const (
@@ -132,7 +132,7 @@ func torDeployment(onion *torv1alpha1.OnionService) *appsv1.Deployment {
 					Containers: []corev1.Container{
 						{
 							Name:  "tor",
-							Image: "quay.io/kragniz/tor-daemon-manager:master",
+							Image: "quay.io/cmars/tor-daemon-manager:master",
 							Args: []string{
 								"-name",
 								onion.Name,

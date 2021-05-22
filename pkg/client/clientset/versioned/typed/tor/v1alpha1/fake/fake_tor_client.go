@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1alpha1 "github.com/kragniz/tor-controller/pkg/client/clientset/versioned/typed/tor/v1alpha1"
+	v1alpha1 "github.com/cmars/tor-controller/pkg/client/clientset/versioned/typed/tor/v1alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

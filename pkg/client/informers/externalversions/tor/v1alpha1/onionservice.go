@@ -5,10 +5,10 @@ package v1alpha1
 import (
 	time "time"
 
-	tor_v1alpha1 "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
-	versioned "github.com/kragniz/tor-controller/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/kragniz/tor-controller/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/kragniz/tor-controller/pkg/client/listers/tor/v1alpha1"
+	tor_v1alpha1 "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
+	versioned "github.com/cmars/tor-controller/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/cmars/tor-controller/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/cmars/tor-controller/pkg/client/listers/tor/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

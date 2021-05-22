@@ -6,7 +6,7 @@ import (
 
 	configlib "github.com/kubernetes-sigs/kubebuilder/pkg/config"
 
-	"github.com/kragniz/tor-controller/pkg/local"
+	"github.com/cmars/tor-controller/pkg/local"
 )
 
 // tor-manager main.

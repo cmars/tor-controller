@@ -14,12 +14,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/client-go/tools/record"
 
-	torv1alpha1 "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
-	torv1alpha1client "github.com/kragniz/tor-controller/pkg/client/clientset/versioned/typed/tor/v1alpha1"
-	torv1alpha1informer "github.com/kragniz/tor-controller/pkg/client/informers/externalversions/tor/v1alpha1"
-	torv1alpha1lister "github.com/kragniz/tor-controller/pkg/client/listers/tor/v1alpha1"
+	torv1alpha1 "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
+	torv1alpha1client "github.com/cmars/tor-controller/pkg/client/clientset/versioned/typed/tor/v1alpha1"
+	torv1alpha1informer "github.com/cmars/tor-controller/pkg/client/informers/externalversions/tor/v1alpha1"
+	torv1alpha1lister "github.com/cmars/tor-controller/pkg/client/listers/tor/v1alpha1"
 
-	"github.com/kragniz/tor-controller/pkg/inject/args"
+	"github.com/cmars/tor-controller/pkg/inject/args"
 )
 
 const (

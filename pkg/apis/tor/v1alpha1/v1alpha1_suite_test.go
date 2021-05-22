@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/gomega"
 	"k8s.io/client-go/rest"
 
-	"github.com/kragniz/tor-controller/pkg/client/clientset/versioned"
-	"github.com/kragniz/tor-controller/pkg/inject"
+	"github.com/cmars/tor-controller/pkg/client/clientset/versioned"
+	"github.com/cmars/tor-controller/pkg/inject"
 )
 
 var testenv *test.TestEnvironment

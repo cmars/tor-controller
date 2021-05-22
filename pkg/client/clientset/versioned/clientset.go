@@ -4,7 +4,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	torv1alpha1 "github.com/kragniz/tor-controller/pkg/client/clientset/versioned/typed/tor/v1alpha1"
+	torv1alpha1 "github.com/cmars/tor-controller/pkg/client/clientset/versioned/typed/tor/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

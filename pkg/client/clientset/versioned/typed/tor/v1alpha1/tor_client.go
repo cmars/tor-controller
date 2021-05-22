@@ -3,8 +3,8 @@
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
-	"github.com/kragniz/tor-controller/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
+	"github.com/cmars/tor-controller/pkg/client/clientset/versioned/scheme"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
 )

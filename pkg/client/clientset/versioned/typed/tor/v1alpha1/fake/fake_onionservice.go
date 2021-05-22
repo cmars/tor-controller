@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1alpha1 "github.com/kragniz/tor-controller/pkg/apis/tor/v1alpha1"
+	v1alpha1 "github.com/cmars/tor-controller/pkg/apis/tor/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

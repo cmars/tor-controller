@@ -6,8 +6,8 @@ import (
 	"github.com/kubernetes-sigs/kubebuilder/pkg/inject/args"
 	"k8s.io/client-go/rest"
 
-	clientset "github.com/kragniz/tor-controller/pkg/client/clientset/versioned"
-	informer "github.com/kragniz/tor-controller/pkg/client/informers/externalversions"
+	clientset "github.com/cmars/tor-controller/pkg/client/clientset/versioned"
+	informer "github.com/cmars/tor-controller/pkg/client/informers/externalversions"
 )
 
 // InjectArgs are the arguments need to initialize controllers
